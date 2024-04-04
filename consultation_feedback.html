@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="feedback.css" />
+
+    <title>General Feedback</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Consultation Feedback</h2>
+      <form id="feedbackForm">
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required />
+        </div>
+
+        <div class="form-group">
+          <label for="ratings">Psikolog Name </label>
+          <select id="ratings" name="ratings" required>
+            <option value="">Select Psikolog</option>
+            <option value="8">Alfiza Suhartono M.Psi, Psikolog</option>
+            <option value="7">Gunawan Aftrinanto S.Kom, M.M, M.Psi, Psi</option>
+            <option value="6">Dian Helena S.Psi, M.Psi, Psikolog</option>
+            <option value="5">Sastro Diningtyas S.Psi, M.Psi.</option>
+            <option value="4">Andy Trisakti, S.Psi., M.Psi</option>
+            <option value="3">Sasmita Gustiana Pramita, B.A, M.Psi.</option>
+            <option value="2">Sintia Roslina , S.Psi., M.Psi., Psikolog, PGCertPT.</option>
+            <option value="1">Permana Wijayanto S.Psi, M.Psi, Psikolog</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="ratings">Psychologist Service Rating </label>
+          <select id="ratings" name="ratings" required>
+            <option value="">😶😐🙂😊😁</option>
+            <option value="5">😶</option>
+            <option value="4">😐</option>
+            <option value="3">🙂</option>
+            <option value="2">😊</option>
+            <option value="1">😁</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="beforeFeelings">How do you feel before the consultation? </label>
+          <textarea id="beforeFeelings" name="beforeFeelings" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="afterFeelings">How do you feel after the consultation? </label>
+          <textarea id="afterFeelings" name="afterFeelings" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Notes </label>
+          <textarea id="notes" name="notes"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <h2>Kenal Diri</h2>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <hr />
+        <p> Copyright © 2024 XCelerate </p>
+    </footer>
+  </body>
+</html>

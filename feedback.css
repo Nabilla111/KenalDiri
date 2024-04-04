@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdf3;
+}
+
+.container {
+  max-width: 550px;
+  margin: 50px auto;
+  background-color: #76abae;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #fbf9f1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 15px;
+  color: #fbf9f1;
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #76abae;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 70px;
+}
+
+button[type="submit"] {
+  background-color: #fbf9f1;
+  color: #76abae;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button[type="submit"]:hover {
+  background-color: #cbdcdd;
+}
+
+/* footer */
+footer {
+  background-color: #76abae;
+  color: #fbf9f1;
+  padding: px 0;
+  text-align: left;
+}
+footer h2 {
+  font-size: 35px;
+  background-color: #76abae;
+  color: #fbf9f1;
+  padding: 40px 0;
+  text-align: left;
+  margin-left: 80px;
+}
+
+footer p {
+  font-size: 17px;
+  margin-top: 20px; /* Ubah angka sesuai dengan jarak yang diinginkan */
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
+.social-icons {
+  justify-content: center;
+  display: inline-block;
+  margin-left: 80px;
+  font-size: 30px; /* Sesuaikan ukuran ikon */
+  /* margin-bottom: -10px; */
+}
+
+.social-icons a {
+  justify-content: left;
+  background-color: #76abae;
+  color: #fbf9f1;
+  display: inline-block;
+  margin-top: 10px; /* batas di footer */
+  width: 40px; /* Sesuaikan ukuran logo */
+  height: 40px; /* Sesuaikan ukuran logo */
+  border-radius: 50%; /* Agar logo memiliki bentuk bulat */
+}
